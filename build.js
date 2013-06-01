@@ -36,7 +36,6 @@ async.forEach(builds, util.build.bind(util), function(err) {
     callback(null);
   }, function(err) {
       console.log("Done!");
-
   });
 });
 
